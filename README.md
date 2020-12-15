@@ -6,3 +6,6 @@ The description was quite vague, so I'll spare some of the viewers of this repos
 
 Second Commit:
 Now that the nature of the project has been established, the functionality of the code is to be described. As Xu mentioned in the Medium article this repository is divided into nine files. More on this tomorrow.
+
+Third Commit:
+The eight files in this repository(excluding the README) are chatgui.py, gui.py, intents.json, libraries.py, train_init.py, train.py, init.py and words.py. Note that of these eight one is a JSON file meant for protocol communication between certain files in the repository. Among these files the first procedure is to import the necessary libraries. These libraries are NLTK, JSON, and Pickle. The links to their respective documentation will be provided at the end of the repository README. NLTK is a family of Python libraries which specify natural language processing. JSON is a prominent JavaScript library which applies human text to store and transmit data. Finally Pickle is another standard library which provides data serialization. In programming serialization is the process of translating a data structure which will be stored and translated into another format.
