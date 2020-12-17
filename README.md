@@ -15,3 +15,8 @@ The second file in this repository is init.py Its functionality is mostly based 
 
 Fifth Commit:
 The third file is perhaps the most important in this section of the repository. The JSON intents specify language protocols between the chatbot and user.
+
+Sixth Commit:
+After the intiaization of the JSON dependencies, the lem.py file is written. This file is based on lemmatization, which is the process of reducing an inflected word
+to its base. Lemmatization will sort the lists and view the output in the interpreter.
+
