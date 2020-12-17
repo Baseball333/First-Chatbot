@@ -11,3 +11,10 @@ model.add(Dense(len(train_y[0]), activation = "softmax"))
 # Compile model with Nesterov gradient acceleration, which provides results for the model
 sgd = SGD(lr = 0.01, decay=le-6, momentum=6, nesterov=True)
 model.compile(loss = "categorical crossentrophy" optimizer=SGD, metrics=["accur"])
+
+
+# Fitting and saving the model
+hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size = 5, verbose=1)
+model.save("chatbot_model.h5", hist)
+
+print("Model created")
