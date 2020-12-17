@@ -3,4 +3,10 @@
        "patterns": ["Hi there",  "How are you", "Is anyone there", "Hey", "Hola", "Hello", "Good Day"]
        "responses":["Hello thanks for asking", "Good to see you again", "Hi there how can I help"]
        "context ["]"
-       }
+       },
+        {"tag:", "thanks",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice talking to you", "Until next time"]
+        "context ["]"
+        },
+        
+        
