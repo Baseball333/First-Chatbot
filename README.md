@@ -9,3 +9,6 @@ Now that the nature of the project has been established, the functionality of th
 
 Third Commit:
 The eight files in this repository(excluding the README) are chatgui.py, gui.py, intents.json, libraries.py, train_init.py, train.py, init.py and words.py. Note that of these eight one is a JSON file meant for protocol communication between certain files in the repository. Among these files the first procedure is to import the necessary libraries. These libraries are NLTK, JSON, and Pickle. The links to their respective documentation will be provided at the end of the repository README. NLTK is a family of Python libraries which specify natural language processing. JSON is a prominent JavaScript library which applies human text to store and transmit data. Finally Pickle is another standard library which provides data serialization. In programming serialization is the process of translating a data structure which will be stored and translated into another format.
+
+Fourth Commit:
+The second file in this repository is init.py Its functionality is mostly based upon the writing of several components through the table type. These tables are also related to the intialization of the JSON dependencies which will be applied in a later commit.
