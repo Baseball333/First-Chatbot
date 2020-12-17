@@ -18,4 +18,9 @@
         "responses" : ["Happy to help", "Any time," "My pleasure"],
         "context ["]"
         
+        ("tag", "noanswer",
+        "patterns": []
+        "responses": ["Sorry I can't understand you", "Please give me more info", "Not sure I understand"],
         
+        "context": ["]
+        }
