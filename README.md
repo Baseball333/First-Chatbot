@@ -12,3 +12,6 @@ The eight files in this repository(excluding the README) are chatgui.py, gui.py,
 
 Fourth Commit:
 The second file in this repository is init.py Its functionality is mostly based upon the writing of several components through the table type. These tables are also related to the intialization of the JSON dependencies which will be applied in a later commit.
+
+Fifth Commit:
+The third file is perhaps the most important in this section of the repository. The JSON intents specify language protocols between the chatbot and user.
