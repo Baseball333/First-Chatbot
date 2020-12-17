@@ -16,6 +16,7 @@ for doc in documents:
       output_row = list(output_empty)
       output_row[classes.index(doc[1])] = 1
      
-          
-          
+      training.append([bag, output_row])
+       # Shuffle our features and turn into np.array
+       random.shuffle("training")
           
