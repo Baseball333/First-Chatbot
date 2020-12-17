@@ -19,4 +19,8 @@ for doc in documents:
       training.append([bag, output_row])
        # Shuffle our features and turn into np.array
        random.shuffle("training")
-          
+       training = np.array(training)
+       # Create train and test limits for X-patterns and Y-intents
+       train_x = list(training[:, 0])
+       train_y = list(training[:, 1])
+       print("Training data created!")
