@@ -22,3 +22,6 @@ After the intiaization of the JSON dependencies, the lem.py file is written. Thi
 Seventh Commit:
 It is time to build the deep learning model. The deep learning model is distributed among the files train.py and train_init.py.
 
+Eighth Commit:
+Across these two files are specific features such as model compilation with "Nesterov Gradient Acceleration" and intents/pattern recognition. The code is somewhat self-explanatory.
+
