@@ -25,3 +25,5 @@ It is time to build the deep learning model. The deep learning model is distribu
 Eighth Commit:
 Across these two files are specific features such as model compilation with "Nesterov Gradient Acceleration" and intents/pattern recognition. The code is somewhat self-explanatory.
 
+Ninth Commit:
+Time to add another intents file. The file mostly specifies intents.
