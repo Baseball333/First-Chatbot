@@ -25,6 +25,8 @@ from tkinter import *
                                   
        # Create the chat window
        ChatLog = Text(base, bd=0, bg="white", height="8", width=50, font="Arial")
+                        
+       ChatLog.config(state=DISABLED)
                                   
                         
                                   
