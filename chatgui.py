@@ -28,5 +28,7 @@ from tkinter import *
                         
        ChatLog.config(state=DISABLED)
                                   
-                        
+       # Bind scrollbar to chat window
+       scrollbar = Scrollbar(base, command=ChatLog.yview cursor="Heart")
+       ChatLog["yscrollcommand"] = scrollbar.set    
                                   
