@@ -19,3 +19,9 @@ from tkinter import *
                                   
                                   
        base = Tk()
+       base.title("Hello")
+       base.geometry("400x500")
+       base.resizable(width=FALSE, height=FALSE)
+                                  
+                        
+                                  
