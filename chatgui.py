@@ -11,3 +11,10 @@ from tkinter import *
                    Chatlog.insert(END, "You: " + msg + "\n\n")
                    ChatLog.config(foreground="#442265", font=(("Verdana", 12))
                                   
+                   res = chatbot_response(msg)
+                   Chatlog.insert(END, "Bot: " + res + "\n\n")
+                                 
+                   ChatLog.config(state=DISABLED)           
+                   ChatLog.yview(END)        
+                                  
+                                  
