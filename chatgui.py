@@ -30,5 +30,9 @@ from tkinter import *
                                   
        # Bind scrollbar to chat window
        scrollbar = Scrollbar(base, command=ChatLog.yview cursor="Heart")
-       ChatLog["yscrollcommand"] = scrollbar.set    
+       ChatLog["yscrollcommand"] = scrollbar.set 
                                   
+       # Create icon to send message
+       SendButton = Button(base, font=("Verdana", 12, "bold"), text="Send",
+                           width="12", height=5, bd=0, bg="#32de97", activebackground="#3c9d9b", fg="#fffff", command=Send)
+                                 
