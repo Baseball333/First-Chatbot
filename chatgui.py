@@ -23,5 +23,8 @@ from tkinter import *
        base.geometry("400x500")
        base.resizable(width=FALSE, height=FALSE)
                                   
+       # Create the chat window
+       ChatLog = Text(base, bd=0, bg="white", height="8", width=50, font="Arial")
+                                  
                         
                                   
