@@ -18,3 +18,4 @@ from tkinter import *
                    ChatLog.yview(END)        
                                   
                                   
+       base = Tk()
