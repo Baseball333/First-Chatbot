@@ -35,4 +35,13 @@ from tkinter import *
        # Create icon to send message
        SendButton = Button(base, font=("Verdana", 12, "bold"), text="Send",
                            width="12", height=5, bd=0, bg="#32de97", activebackground="#3c9d9b", fg="#fffff", command=Send)
-                                 
+       # Create box to send message                     
+       EntryBox = Text(base, bd=0, bg="white", width="29" height="5", font="Arial")
+                                  
+       EntryBox.bind ("<Return>", send)                       
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
