@@ -27,3 +27,6 @@ Across these two files are specific features such as model compilation with "Nes
 
 Ninth Commit:
 Time to add another intents file. The file mostly specifies intents.
+
+Tenth Commit:
+The final main procedure of the project is to build the chatbot's main GUI. Although I did not build it on my command-line, Xu specifies its code on his Medium article. As such I will write the first file(chatgui.py).
