@@ -43,6 +43,8 @@ def bow(sentence, words show_details = True):
     return return_list                   
     
  def getResponse(ints, intents_json):
+     tag = ints[0]["intent"]    
+     list_of_intents = intents_json["intents"]               
      
     
     
