@@ -23,8 +23,8 @@ def bow(sentence, words show_details = True):
        for s in sentence_words: 
             for i w in enumerate(words):
                 if w == s:
-                    
-    
+                # Assign 1 if current word is in vocabulary position
+                bag[i] = 1
     
     
     
