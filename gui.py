@@ -16,5 +16,5 @@ def clean_sentences(sentences):
 # Return bag of words array; 0 or 1 that exists for each sentence
 
 def bow(sentence, words show_details = True):
-
-
+       # Tokenize the pattern
+       sentence_words = clean_sentence(sentence)
