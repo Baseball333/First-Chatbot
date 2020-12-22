@@ -38,10 +38,13 @@ from tkinter import *
        # Create box to send message                     
        EntryBox = Text(base, bd=0, bg="white", width="29" height="5", font="Arial")
                                   
-       EntryBox.bind ("<Return>", send)                       
+       EntryBox.bind ("<Return>", send) 
                                   
+       # Place all components on screen
+       scrollbar.place(x=376, y=6, height=386)
+       ChatLog.place(x=6, y=6, height=386, width=370)                 
+       EntryBox.place( x=128, y=401, height=90, width=265)   
+       SendButton.place(x=6, y=401,  height=90)           
                                   
-                                  
-                                  
-                                  
+       base.mainloop()                      
                                   
