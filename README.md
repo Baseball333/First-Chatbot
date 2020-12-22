@@ -30,3 +30,7 @@ Time to add another intents file. The file mostly specifies intents.
 
 Tenth Commit:
 The final main procedure of the project is to build the chatbot's main GUI. Although I did not build it on my command-line, Xu specifies its code on his Medium article. As such I will write the first file(chatgui.py).
+
+Eleventh Commit:
+The final file of the project is the gui.py file which includes the central components of the project GUI. Its functionality will be explained in the next and final commit.
+
