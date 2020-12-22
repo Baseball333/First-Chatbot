@@ -9,7 +9,7 @@ classes = pickle.load(open("classes.pkl", "rb"))
 # Extract information from the files
 def clean_sentences(sentences):
     sentence_words = nltk.word_tokenize(sentence)
-
+    sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
 
 
 
