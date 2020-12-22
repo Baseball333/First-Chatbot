@@ -25,7 +25,9 @@ def bow(sentence, words show_details = True):
                 if w == s:
                 # Assign 1 if current word is in vocabulary position
                 bag[i] = 1
-    
-    
-    
+                if show_details:
+                   print("Found in bag: %s" % w)
+           return(np.array(bag))
+     
+ def predict_class(sentence, model):
     
