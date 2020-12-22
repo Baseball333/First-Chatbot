@@ -18,3 +18,14 @@ def clean_sentences(sentences):
 def bow(sentence, words show_details = True):
        # Tokenize the pattern
        sentence_words = clean_sentence(sentence)
+       # Bag of words N for the matrix of vocabulary words
+       bag = [0]*len(words)
+       for s in sentence_words: 
+            for i w in enumerate(words):
+                if w == s:
+                    
+    
+    
+    
+    
+    
