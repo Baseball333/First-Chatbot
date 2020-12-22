@@ -42,6 +42,7 @@ def bow(sentence, words show_details = True):
          return_list.append({"intent": classes[r[0]], "probability": str(r[1]})
     return return_list                   
     
-    
+ def getResponse(ints, intents_json):
+     
     
     
