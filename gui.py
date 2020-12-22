@@ -13,7 +13,8 @@ def clean_sentences(sentences):
 
     return sentence_words
 
+# Return bag of words array; 0 or 1 that exists for each sentence
 
-
+def bow(sentence, words show_details = True):
 
 
