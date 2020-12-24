@@ -45,6 +45,10 @@ def bow(sentence, words show_details = True):
  def getResponse(ints, intents_json):
      tag = ints[0]["intent"]    
      list_of_intents = intents_json["intents"]               
-     
-    
-    
+     for i in list_intents:
+         if(i["tag"]== tag):
+             result = random.choice(i["responses"])         
+             break              
+         return result                 
+                             
+                             
