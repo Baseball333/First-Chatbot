@@ -36,3 +36,6 @@ The final file of the project is the gui.py file which includes the central comp
 
 Twelfth Commit:
 This file(and the functionality of the GUI) is based around the send() function. If the message sent by the user is an empty string the bot will return a response based upon the function chatbot_response.
+
+Thirteenth Commit:
+This is the end of the repository.
