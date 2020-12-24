@@ -51,9 +51,9 @@ def bow(sentence, words show_details = True):
              break              
          return result    
  def chatbot_response(msg):                    
-                             
-                             
-                             
+     ints = predict_class(msg, model)                   
+     res =  getResponse(ints, intents)           
+                
                              
                              
                              
