@@ -39,3 +39,11 @@ This file(and the functionality of the GUI) is based around the send() function.
 
 Thirteenth Commit:
 This is the end of the repository.
+
+Fourteenth Commit:
+This commit includes all of the  libraries' documentation involved in this project.
+Pickle: https://docs.python.org/3.4/library/pickle.html
+NLTK:   http://www.nltk.org
+JSON:   https://www.json.org/json-en.html
+Here is the link to an academic resource about Nesterov Gradient.
+https://proceedings.icml.cc/static/paper_files/icml/2020/5529-Paper.pdf
