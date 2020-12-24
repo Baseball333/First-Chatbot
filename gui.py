@@ -49,6 +49,15 @@ def bow(sentence, words show_details = True):
          if(i["tag"]== tag):
              result = random.choice(i["responses"])         
              break              
-         return result                 
+         return result    
+ def chatbot_response(msg):                    
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
                              
                              
